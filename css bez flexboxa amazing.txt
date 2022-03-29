@@ -1,0 +1,274 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* Aby zmieniæ przsuwanie do kotwicy musimy siê odwolaæ do tagu html */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.section-title {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* Nav */
+nav {
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+	height: 60px;
+	line-height: 60px;
+	background-color: rgb(158, 156, 156);
+	text-align: center;
+}
+
+.nav-items {
+	display: none;
+}
+.burger-icon {
+	display: block;
+	margin-left: auto;
+	padding: 0px 20px;
+	line-height: 60px;
+	font-size: 30px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+/* Header */
+.hero-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.hero-text h1 {
+	margin-bottom: 5px;
+	text-shadow: 3px 3px 5px #000;
+	color: #ddd;
+}
+.hero-text span {
+	text-transform: uppercase;
+	color: #09f;
+}
+
+.header {
+	position: relative;
+	height: 300px;
+	background-image: url(../images/wolves-gfcbad5ed2_640.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/* Main */
+
+main {
+	margin: 60px 0px;
+}
+
+/* O nas */
+
+/* Odwo³ujemy siê do sekcji i scrollmargintop aby nav nie zas³ania³a treœci */
+section {
+	scroll-margin-top: 70px;
+}
+
+.about-us-info {
+	margin: 10px 0px;
+	padding: 0 20px;
+}
+
+/* Produkty */
+
+.product {
+	position: relative;
+	height: 300px;
+	margin: 40px 0px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.product h3 {
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.product:hover h3 {
+	transform: scale(1.6);
+}
+.products {
+	margin: 60px auto;
+}
+.first-product {
+	background-image: url(../images/children-g2906c01fc_640.jpg);
+}
+.second-product {
+	background-image: url(../images/office-ga562c9502_640.jpg);
+}
+.third-product {
+	background-image: url(../images/keyboard-gc8fe33436_640.jpg);
+}
+.fourth-product {
+	background-image: url(../images/woman-g19a458649_640.jpg);
+}
+
+/* Kontakt */
+.contact {
+	text-align: center;
+}
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
+/* Footer */
+
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
+/* ¯ywe lekcje historii */
+.historia {
+	position: relative;
+	height: 1000px;
+	margin: 40px 0px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+
+/* Iluzja */
+.section-iluzja{
+	display: flex;
+}
+.products-iluzja{
+
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	
+	
+}
+
+
+/* Breakpoint 768px */
+/* Stylowanie od danego breakpointu umieszczamy w tym breakpoincie */
+@media (min-width: 768px) {
+	/* Nav */
+
+	.burger-icon {
+		display: none;
+	}
+	.nav-items {
+		display: block;
+	}
+	.nav-items a {
+		padding: 0 30px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: rgb(38, 41, 44);
+		cursor: pointer;
+		transition: color 0.4s;
+	}
+	.nav-items a:hover {
+		color: #09f;
+	}
+
+	/* Header */
+
+	.header {
+		position: relative;
+		height: 400px;
+		background-image: url(../images/wolves-g22cee5319_1920.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	.hero-text h1 {
+		font-size: 36px;
+		margin-bottom: 5px;
+		text-shadow: 3px 3px 5px #000;
+		color: #ddd;
+	}
+	.hero-text p {
+		font-size: 20px;
+	}
+	/* Main */
+
+	.first-product {
+		background-image: url(../images/children-g518c8faf2_1920.jpg);
+	}
+	.second-product {
+		background-image: url(../images/headphones-g072852aa6_1920.jpg);
+	}
+	.third-product {
+		background-image: url(../images/keyboard-gfcfd20be6_1920.jpg);
+	}
+	.fourth-product {
+		background-image: url(../images/woman-gaaa402633_1920.jpg);
+	}
+	.product h3 {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 992px) {
+	/* Aby usun¹æ b³¹d html(przerwy miêdzy grafikami) dajemy klasê section box i fs 0 */
+
+	.section-box {
+		font-size: 0px;
+	}
+	/* Aby ustawiæ elementy w szereg bez flexboxa trzeba nadaæ im szerokoœæ */
+	.product {
+		display: inline-block;
+		width: 50%;
+	}
+}
+/* Breakpoin 1200px */
+@media (min-width: 1200px) {
+	.header {
+		position: relative;
+		height: 450px;
+		background-image: url(../images/wolves-g22cee5319_1920.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	.hero-text h1 {
+		font-size: 40px;
+		margin-bottom: 5px;
+		text-shadow: 3px 3px 5px #000;
+		color: #ddd;
+	}
+	.hero-text p {
+		font-size: 22px;
+	}
+}
