@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmazingPieron</title>
+    <link rel="stylesheet" href="./css/styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Dongle:wght@700&family=Lato:ital,wght@0,700;0,900;1,700&family=Nunito&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Raleway:ital,wght@0,400;1,300;1,500&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbc45e0a93.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <button class="burger-icon"><i class="fas fa-bars"></i></button>
+        <div class="wrapper">
+
+            <div class="nav-items">
+                <a href="#">Home</a>
+                <a href="#about-us">O nas</a>
+                <a href="#products">Us³ugi</a>
+                <a href="#contact">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="hero-bg"></div>
+        <div class="hero-text">
+            <h1>Strona lalala<span>design</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+    </header>
+    <main>
+
+
+        <section class="about-us wrapper" id="about-us">
+            <h2 class="section-title">O nas</h2>
+
+            <p class="about-us-info ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi alias veritatis
+                aperiam quo tenetur veniam dolorum eveniet quidem animi corrupti molestiae aliquid iusto laborum, non
+                sit, sed dolor! Sapiente, incidunt?</p>
+            <p class="about-us-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos corrupti quis quae
+                soluta minima doloremque laborum. Possimus in consequuntur aspernatur adipisci, quo dignissimos! Vero
+                asperiores sequi excepturi, blanditiis quo doloremque.</p>
+        </section>
+        <section class="products wrapper" id="products">
+            <h2 class="section-title">Produkty</h2>
+            <div class="section-box">
+                <div class="product first-product">
+                    <div class="hero-bg"></div>
+                    <div class="hero-text">
+                        <h3> <a href="fireshow.html">Spektakle teatralno-ogniowe</a></h3>
+
+                    </div>
+                </div>
+                <div class="product second-product">
+                    <div class="hero-bg"></div>
+                    <div class="hero-text">
+                        <h3><a href="iluzja.html">Iluzja</a></h3>
+
+                    </div>
+                </div>
+                <div class="product third-product">
+                    <div class="hero-bg"></div>
+                    <div class="hero-text">
+                        <h3><a href="animacje.html">Animacje</a></h3>
+
+                    </div>
+                </div>
+                <div class="product fourth-product">
+                    <div class="hero-bg"></div>
+                    <div class="hero-text">
+                        <h3><a href="historia.html">¯ywe lekcje historii</a></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact wraper" id="contact">
+            <h2 class="section-title">Kontakt</h2>
+            <p><i class="fas fa-phone">48+000 000 000</i></p>
+            <p><i class="fas fa-at">pieron@gmail.com</i></p>
+            <h3>Adres</h3>
+            <p>ul.Najlepsza</p>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2021 AmazingPieron</p>
+    </footer>
+
+</body>
+
+</html>
