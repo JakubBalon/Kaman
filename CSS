@@ -1,0 +1,455 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* Aby zmienić przsuwanie do kotwicy musimy się odwolać do tagu html */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+section {
+	scroll-margin-top: 70px;
+}
+.aboutUs {
+	scroll-margin-top: 70px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.section-title {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+}
+.content {
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+.black-text{
+	color: #000;
+	padding: 40px;
+	text-align: center;
+}
+.text-content{
+	display: flex;
+	flex-direction: column;
+}
+/* Nav */
+nav {
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+	height: 60px;
+	line-height: 60px;
+	background-color: rgb(158, 156, 156);
+	text-align: center;
+}
+
+.nav-items {
+	display: none;
+}
+
+/* Header */
+	
+.header1 {
+	position: relative;
+	height: 300px;
+	background-image: url(./images/Kaman.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/* Main */
+
+main {
+	margin: 60px 0px;
+}
+
+/* O nas */
+
+.about-us-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 10px 0px;
+	padding: 0 20px;
+}
+
+/* Produkty */
+
+.raw-1 {
+	display: flex;
+	justify-content: space-around;
+}
+.raw-2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.product {
+	display: flex;
+	height: 300px;
+	width: 300px;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	border: solid white;
+}
+.bg {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.product h3 {
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.product:hover h3 {
+	transform: scale(1.4);
+}
+.product1{
+background-image: url(./images/fireshow4.jpg)
+}
+.product2{
+background-image: url(./images/karty.jpg)
+}
+.product3{
+background-image: url(./images/bubbles-gb4fa5c7b9_1920.jpg)
+}
+.product4{
+background-image: url(./images/historia.jpg)
+}
+
+
+
+/* Kontakt */
+.contact {
+	text-align: center;
+	margin-top: 50px;
+}
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
+/* Footer */
+
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
+/* Żywe lekcje historii */
+.historia {
+	position: relative;
+	height: 1000px;
+	margin: 40px 0px;
+	background-image: url(/css/images/historia2.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+/* Iluzja */
+.section-iluzja {
+	display: flex;
+}
+.products-iluzja {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 800px;
+	width: 400px;
+	background-size: cover;
+}
+.close-up{
+	background-image: url(./images/karty.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.scena{
+	background-image: url(./images/scena.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.text-content h1{text-transform: uppercase;}
+/* Fireshow */
+
+.section-fireshow {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1500px;
+}
+
+.raw-3 {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.products-fireshow {
+	height: 300px;
+	width: 1200px;
+	display: flex;
+}
+.krolowa{
+	background-image: url(./images/fireshow.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.królowa-text{
+	color: #000;
+	justify-content: center;
+	align-items: center;
+
+}
+.upior{
+	background-image: url(./images/fireshow3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.wiedzma{
+	background-image: url(./images/fireshow2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/* Animacje */
+
+.klasyczne{
+	background-image: url(./images/kindergarten-ge6ef87b9c_1920.jpg);
+	background-size:cover;
+	background-position: center;
+}
+.tematyczne{
+	background-image: url(./images/blazen.jpg);
+	background-size: 120%;
+	background-position:90%;
+}
+
+/* Timeline */
+.timeline {
+	display: flex;
+	width: 80%;
+	height: auto;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+	padding: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.timeline ul {
+	list-style: none;
+}
+.timeline ul li {
+	padding: 20px;
+	background-color: gray;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+	margin-bottom: 0px;
+}
+.timeline-content h1 {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.timeline-content p {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+}
+.date {
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+/* Breakpoint 768px */
+/* Stylowanie od danego breakpointu umieszczamy w tym breakpoincie */
+@media (min-width: 768px) {
+	/* Nav */
+
+	.burger-icon {
+		display: none;
+	}
+	.nav-items {
+		display: block;
+	}
+	.nav-items a {
+		padding: 0 30px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: rgb(38, 41, 44);
+		cursor: pointer;
+		transition: color 0.4s;
+	}
+	.nav-items a:hover {
+		color: rgb(187, 4, 4);
+	}
+
+	/* Header */
+
+	.header {
+		position: relative;
+		height: 400px;
+		background-image: url(../images/wolves-g22cee5319_1920.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	.hero-text h1 {
+		font-size: 36px;
+		margin-bottom: 5px;
+		text-shadow: 3px 3px 5px #000;
+		color: #ddd;
+	}
+	.hero-text p {
+		font-size: 20px;
+	}
+	/* Main */
+
+	.first-product {
+		background-image: url(../images/children-g518c8faf2_1920.jpg);
+	}
+	.second-product {
+		background-image: url(../images/headphones-g072852aa6_1920.jpg);
+	}
+	.third-product {
+		background-image: url(../images/keyboard-gfcfd20be6_1920.jpg);
+	}
+	.fourth-product {
+		background-image: url(../images/woman-gaaa402633_1920.jpg);
+	}
+	.product h3 {
+		font-size: 25px;
+	}
+
+	/* Iluzja */
+	.products-iluzja {
+		width: 75%;
+	}
+	/* Fireshow */
+	.products-fireshow {
+		width: 760px;
+	}
+	/* Timeline */
+	.timeline::before {
+		content: '';
+		position: absolute;
+		height: 100%;
+		width: 2px;
+		background-color: gray;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.timeline ul li {
+		width: 50%;
+		margin-bottom: 50px;
+		position: relative;
+	}
+	.timeline ul li:nth-child(odd) {
+		float: left;
+		clear: right;
+		transform: translateX(-30px);
+	}
+	.timeline ul li:nth-child(even) {
+		float: right;
+		clear: left;
+		transform: translateX(30px);
+	}
+	.timeline ul li::after {
+		content: '';
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background-color: black;
+		border-radius: 50%;
+		top: 0%;
+	}
+	.timeline ul li:nth-child(odd)::after {
+		right: -30px;
+		transform: translate(50%, -50%);
+	}
+	.timeline ul li:nth-child(even)::after {
+		left: -50px;
+		transform: translate(50%, -50%);
+	}
+	.timeline ul li:hover::after {
+		background-color: #09f;
+	}
+	.date {
+		position: absolute;
+		top: -20px;
+	}
+
+	@media (min-width: 992px) {
+		/* Aby usunąć błąd html(przerwy między grafikami) dajemy klasę section box i fs 0 */
+
+		.product {
+			display: inline-block;
+			width: 50%;
+		}
+	}
+	.products-iluzja {
+		width: 250px;
+	}
+
+	/* Breakpoin 1200px */
+	@media (min-width: 1200px) {
+		.header {
+			position: relative;
+			height: 450px;
+			background-image: url(../images/wolves-g22cee5319_1920.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		.hero-text h1 {
+			font-size: 40px;
+			margin-bottom: 5px;
+			text-shadow: 3px 3px 5px #000;
+			color: #ddd;
+		}
+		.hero-text p {
+			font-size: 22px;
+		}
+	}
+
+	@media (min-width: 360px) {
+		.products-iluzja {
+			width: 48%;
+		}
+	}
+}
