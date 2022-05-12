@@ -148,12 +148,20 @@ main {
 
 /* Kontakt */
 .contact {
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	margin-top: 50px;
 }
 .contact h3 {
 	margin: 20px 0 5px;
 	text-transform: uppercase;
+}
+.contact-text{
+	width: 300px;
+	text-align: center;
+	color: black;
 }
 /* Footer */
 
@@ -161,6 +169,7 @@ footer {
 	padding: 30px 10px;
 	text-align: center;
 	background-color: #ddd;
+	width: 100%;
 }
 
 /* Żywe lekcje historii */
@@ -174,8 +183,8 @@ footer {
 	text-align: center;
 }
 .historia-text {
-	height: 300px;
-	width: 500px;
+	height: 400px;
+	width: 300px;
 }
 
 /* Iluzja */
@@ -183,18 +192,12 @@ footer {
 	width: 300px;
 	height: 300px;
 }
-.section-iluzja {
-	display: flex;
-}
 .products-iluzja {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	height: 600px;
+	height: 1000px;
 	width: 100%;
-	background-size: cover;
-	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	overflow: auto;
 }
 .close-up {
@@ -228,7 +231,7 @@ footer {
 	justify-content: space-around;
 }
 .products-fireshow {
-	height: 800px;
+	height: 850px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -388,7 +391,11 @@ footer {
 	.reverse {
 		flex-direction: row-reverse;
 	}
-
+	/*Historia  */
+	.historia-text{
+		width: 500px;
+		height: 300px;
+	}
 	/* Timeline */
 	.timeline::before {
 		content: '';
