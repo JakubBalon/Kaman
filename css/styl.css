@@ -43,12 +43,14 @@ section {
 	color: #000;
 	padding: 10px;
 	text-align: center;
+	width: 300px;
 }
 
 .text-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 300px;
 }
 /* Nav */
 nav {
@@ -178,7 +180,8 @@ footer {
 
 /* Iluzja */
 .small {
-	width: 150px;
+	width: 300px;
+	height: 300px;
 }
 .section-iluzja {
 	display: flex;
@@ -225,8 +228,8 @@ footer {
 	justify-content: space-around;
 }
 .products-fireshow {
-	height: 600px;
-	width: auto;
+	height: 800px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -385,6 +388,7 @@ footer {
 	.reverse {
 		flex-direction: row-reverse;
 	}
+
 	/* Timeline */
 	.timeline::before {
 		content: '';
@@ -450,6 +454,7 @@ footer {
 		flex-direction: row;
 		justify-content: space-between;
 		width: 992px;
+		height: 600px;
 	}
 	.reverse {
 		flex-direction: row-reverse;
@@ -477,6 +482,7 @@ footer {
 			flex-direction: row;
 			justify-content: space-between;
 			width: 1200px;
+			height: 600px;
 		}
 
 		.reverse {
