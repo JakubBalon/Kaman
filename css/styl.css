@@ -364,6 +364,12 @@ footer {
 	.products-iluzja {
 		width: 75%;
 	}
+	.scena{
+background-size:cover;
+background-position: 0 35%;
+
+	
+	}
 	/* Fireshow */
 	.section-fireshow {
 		height: 1850px;
