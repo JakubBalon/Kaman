@@ -52,6 +52,13 @@ section {
 	justify-content: center;
 	width: 300px;
 }
+.big-text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 1000px;
+	width: 300px;
+}
 /* Nav */
 nav {
 	position: sticky;
@@ -134,10 +141,10 @@ main {
 	transform: scale(1.4);
 }
 .product1 {
-	background-image: url(./images/fireshow4.jpg);
+	background-image: url(./images/fireshow4\ 850.jpg);
 }
 .product2 {
-	background-image: url(./images/karty.jpg);
+	background-image: url(./images/karty\ 1024.jpg);
 }
 .product3 {
 	background-image: url(./images/bubbles-gb4fa5c7b9_1920.jpg);
@@ -158,7 +165,7 @@ main {
 	margin: 20px 0 5px;
 	text-transform: uppercase;
 }
-.contact-text{
+.contact-text {
 	width: 300px;
 	text-align: center;
 	color: black;
@@ -177,7 +184,7 @@ footer {
 	position: relative;
 	height: 1000px;
 	margin: 40px 0px;
-	background-image: url(/css/images/historia2.jpg);
+	background-image: url(./images/historia\ 1200.jpg);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -192,21 +199,14 @@ footer {
 	width: 300px;
 	height: 300px;
 }
-.products-iluzja {
-	height: 1000px;
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	overflow: auto;
-}
+
 .close-up {
-	background-image: url(./images/karty.jpg);
+	background-image: url(./images/karty\ 1024.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .scena {
-	background-image: url(./images/scena.jpg);
+	background-image: url(./images/scena\ 1024.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -239,7 +239,7 @@ footer {
 	overflow: auto;
 }
 .krolowa {
-	background-image: url(./images/fireshow.jpg);
+	background-image: url(./images/fireshow\ 1024.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -249,12 +249,12 @@ footer {
 	align-items: center;
 }
 .upior {
-	background-image: url(./images/fireshow3.jpg);
+	background-image: url(./images/fireshow3\ 1024.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .wiedzma {
-	background-image: url(./images/fireshow2.jpg);
+	background-image: url(./images/fireshow-2\ 1024.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -356,18 +356,6 @@ footer {
 	}
 	/* Main */
 
-	.first-product {
-		background-image: url(../images/children-g518c8faf2_1920.jpg);
-	}
-	.second-product {
-		background-image: url(../images/headphones-g072852aa6_1920.jpg);
-	}
-	.third-product {
-		background-image: url(../images/keyboard-gfcfd20be6_1920.jpg);
-	}
-	.fourth-product {
-		background-image: url(../images/woman-gaaa402633_1920.jpg);
-	}
 	.product h3 {
 		font-size: 25px;
 	}
@@ -377,6 +365,9 @@ footer {
 		width: 75%;
 	}
 	/* Fireshow */
+	.section-fireshow {
+		height: 1850px;
+	}
 	.products-fireshow {
 		flex-direction: row;
 		justify-content: space-between;
@@ -392,7 +383,7 @@ footer {
 		flex-direction: row-reverse;
 	}
 	/*Historia  */
-	.historia-text{
+	.historia-text {
 		width: 500px;
 		height: 300px;
 	}
