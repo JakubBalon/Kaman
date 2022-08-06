@@ -70,7 +70,14 @@ nav {
 	background-color: rgb(158, 156, 156);
 	text-align: center;
 }
-
+.burger-icon {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.burger-icon-item {
+	display: flex;
+}
 .nav-items {
 	display: none;
 }
